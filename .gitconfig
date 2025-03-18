@@ -1,0 +1,13 @@
+[credential]
+        helper = store
+[user]
+        email = hexhowells@gmail.com
+        name = hexhowells
+[core]
+        autocrlf = true
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        cm = commit
+        df = diff
