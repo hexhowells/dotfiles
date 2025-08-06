@@ -1,0 +1,21 @@
+[project]
+name = ""
+version = "0.0.0"
+description = ""
+authors = [{ name = "Morgan Howells", email = "hexhowells@gmail.com" }]
+readme = "README"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "D", "I", "ERA"]
+ignore = ["D212", "D415", "B904"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
