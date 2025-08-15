@@ -11,3 +11,7 @@
         br = branch
         cm = commit
         df = diff
+        lg = log --oneline --graph --decorate --all
+[push]
+        default = current
+        autoSetupRemote = true
