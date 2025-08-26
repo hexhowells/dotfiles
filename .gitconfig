@@ -12,6 +12,7 @@
         cm = commit
         df = diff
         lg = log --oneline --graph --decorate --all
+        cnv = commit --no-verify
 [push]
         default = current
         autoSetupRemote = true
