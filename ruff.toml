@@ -1,0 +1,13 @@
+line-length = 120
+target-version = "py311"
+exclude = [
+  "tests",
+  "*.ipynb"
+]
+
+[lint]
+select = ["E", "F", "B", "ERA"]
+ignore = ["B904", "E501"]
+
+[lint.pydocstyle]
+convention = "google"
