@@ -1,0 +1,15 @@
+{
+  "typeCheckingMode": "basic",
+  "exclude": [
+    "venv",
+    ".venv",
+    "__pycache__",
+    "tests"
+  ]
+  "reportMissingInports": true,
+  "reportOptionalSubscript": false,
+  "reportOptionalMemberAccess": false,
+  "reportOptionalCall": true,
+  "reportPrivateImportUsage": true,
+  "pythonVersion": "3.11"
+}
