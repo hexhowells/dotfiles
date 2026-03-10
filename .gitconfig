@@ -13,6 +13,8 @@
         df = diff
         lg = log --oneline --graph --decorate --all
         cnv = commit --no-verify
+        ps = push
+        ds = diff --staged
 [push]
         default = current
         autoSetupRemote = true
