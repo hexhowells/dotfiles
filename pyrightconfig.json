@@ -5,7 +5,7 @@
     ".venv",
     "__pycache__",
     "tests"
-  ]
+  ],
   "reportMissingInports": true,
   "reportOptionalSubscript": false,
   "reportOptionalMemberAccess": false,
